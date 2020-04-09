@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pet Details renders component 1`] = `
+<div>
+  <div
+    class="app_box app_container"
+  >
+    Loading...
+  </div>
+</div>
+`;

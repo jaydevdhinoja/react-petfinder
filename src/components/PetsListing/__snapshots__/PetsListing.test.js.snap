@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pet Listing renders component 1`] = `
+<div>
+  <form>
+    <div
+      class="app_container"
+    >
+      <div>
+        Pet Finder
+      </div>
+      <div
+        class="app_center_heading"
+      >
+        <div
+          class="app_center_title"
+        >
+          Search
+        </div>
+        <div
+          class="app_center_wrap"
+        >
+          <input
+            class="app_center_searchTerm"
+            placeholder="What are you looking for?"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="app_box"
+      >
+        <div
+          class="app_card"
+        >
+          <div
+            class="app_card-image"
+            style="background-image: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/47782140/5/?width=200);"
+          >
+            <img
+              alt="Fred"
+              src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/47782140/5/?width=200"
+              style="display: none;"
+            />
+          </div>
+          <div
+            class="app_card-details"
+          >
+            <h3>
+              Fred
+            </h3>
+            <p>
+              Primary Breed: Dachshund
+            </p>
+            <p>
+              Secondary Breed: 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
