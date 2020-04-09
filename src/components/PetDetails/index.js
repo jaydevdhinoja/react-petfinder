@@ -25,7 +25,7 @@ const PetDetails = (props) => {
   } else {
     return (
       <div>
-        <div className={"app_back"} onClick={() => props.history.push('/')}>Back to listing</div>
+        <div className="app_back" onClick={() => props.history.push('/')}>Back to listing</div>
         <div className="app_box app_container">
           <div className="app_card_view">
             <div className="app_card_view_image">
