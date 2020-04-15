@@ -24,7 +24,6 @@ const PetsListingProvider = ({ children }) => {
 					client.animal.search({...animalType, ...breed})
 					.then(function (response) {
 						let petfinderData = response.data;
-						console.log(petfinderData)
 						setInitialState({
 							...initialState,
 							pets: petfinderData.animals
