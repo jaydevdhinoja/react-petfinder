@@ -8,7 +8,7 @@ const defaultState = {
 
 export const PetsListingContext = createContext(defaultState);
 
-const client = new Client({apiKey: 'lZrY2wFLzhyEUefSPPn4JjEwIUBMP0gppdb1EEI9CXRRT629HL', secret: 'PgC6ma6wEX2Ll79BbODrGTX6IcKvwMnj7zVuAlOu'});
+const client = new Client({apiKey: process.env.API_KEY, secret: process.env.SECRET_KEY});
 
 const PetsListingProvider = ({ children }) => {
 	const InitialState = () => defaultState;
