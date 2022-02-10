@@ -6,7 +6,7 @@
 		"@petfinder/petfinder-js": "^1.0.6",
 		"@pusher/chatkit": "^0.7.18",
 		"axios": "^0.19.0",
-		"node-sass": "^4.13.1",
+		"node-sass": "^7.0.0",
 		"normalize.css": "^8.0.1",
 		"query-string": "^6.8.2",
 		"react": "^16.9.0",
